@@ -8,9 +8,10 @@ public class SampleTest {
 		
 		System.out.println(System.getProperty("Browser"));
 		System.out.println(System.getProperty("url"));
+		System.out.println(System.getProperty("Environment"));
 		System.out.println(System.getProperty("userName"));
 		System.out.println(System.getProperty("password"));
-		System.out.println(System.getProperty("completed contactTest1"));
+		System.out.println("completed contactTest1");
 		
 	}
 	

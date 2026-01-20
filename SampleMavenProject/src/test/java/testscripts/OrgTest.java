@@ -7,9 +7,11 @@ public class OrgTest {
 	{
 		System.out.println(System.getProperty("Browser"));
 		System.out.println(System.getProperty("url"));
+		System.out.println(System.getProperty("Environment"));
 		System.out.println(System.getProperty("userName"));
 		System.out.println(System.getProperty("password"));
-		System.out.println(System.getProperty("completed orgTest2"));
+		
+		System.out.println("completed orgTest2");
 		
 	}
 	
