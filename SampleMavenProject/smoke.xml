@@ -1,20 +1,19 @@
 
 <suite name="Suite">
+<groups>
+<run>
+<include name="SmokeTesting"/>
+</run></groups>
 	<test thread-count="5" name="Test1">
 		<classes>
 			<class name="testscripts.OrgTest">
-				<methods>
-					<include name="sampleTest" />
-				</methods>
+				
 			</class>
 		</classes>
 	</test>
 	<test thread-count="5" name="Test2">
 		<classes>
 			<class name="testscripts.SampleTest">
-				<methods>
-					<include name="orgTest" />
-				</methods>
 			</class>
 		</classes>
 	</test> <!-- Test -->

@@ -2,7 +2,7 @@ package testscripts;
 import org.testng.annotations.Test;
 
 public class OrgTest {
-	@Test
+	@Test(groups="SmokeTesting")
 	public void testTest()
 	{
 		System.out.println(System.getProperty("Browser"));
