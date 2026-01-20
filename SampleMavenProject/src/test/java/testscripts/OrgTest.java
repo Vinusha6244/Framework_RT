@@ -18,7 +18,7 @@ public class OrgTest {
 	
 	@Test
 	public void orgTest()
-	{
+	{   System.out.println("started Regression testing");
 		System.out.println("sample org1");
 		System.out.println("sample org2.");
 		System.out.println("sample org3");
