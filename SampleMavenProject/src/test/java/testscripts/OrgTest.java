@@ -5,13 +5,14 @@ public class OrgTest {
 	@Test(groups="SmokeTesting")
 	public void testTest()
 	{
+		System.out.println("started smoke testing");
 		System.out.println(System.getProperty("Browser"));
 		System.out.println(System.getProperty("url"));
 		System.out.println(System.getProperty("Environment"));
 		System.out.println(System.getProperty("userName"));
 		System.out.println(System.getProperty("password"));
 		
-		System.out.println("completed orgTest2");
+		System.out.println("completed orgTest2 smoke testing");
 		
 	}
 	

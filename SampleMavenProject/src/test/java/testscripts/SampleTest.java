@@ -5,19 +5,20 @@ public class SampleTest {
 	@Test(groups="SmokeTesting")
 	public void testTest()
 	{
-		
+		System.out.println("started smoke testing");
 		System.out.println(System.getProperty("Browser"));
 		System.out.println(System.getProperty("url"));
 		System.out.println(System.getProperty("Environment"));
 		System.out.println(System.getProperty("userName"));
 		System.out.println(System.getProperty("password"));
-		System.out.println("completed contactTest1");
+		System.out.println("completed contactTest1 smoke testing");
 		
 	}
 	
 	@Test
 	public void sampleTest()
 	{
+		 System.out.println("started Regression testing");
 		System.out.println("sample test2.");
 		System.out.println("sample test2.");
 		System.out.println("sample test3");
